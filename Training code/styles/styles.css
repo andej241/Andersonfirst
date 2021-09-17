@@ -1,0 +1,101 @@
+
+/*Text on left*/
+#web {
+    font-family: Arial;
+    position:absolute;
+    top: 375px;
+    left: 225px;
+    font-size: 2cm;
+    color: black;
+}
+
+/*Right side of the screen*/
+.screen {
+    width: 950px;
+    height:925px;
+    position: absolute;
+    background-color: #5e5d5d;
+    top: 70px;
+    right: 0px;
+}
+
+/*Text on right*/
+div {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    right: 225px;
+    top: 150px;
+    font-size: x-large;
+    color: white;
+    font-family: sans-serif, Helvetica, sans-serif;
+}
+
+/*Text on left*/
+p {
+    font-family: Arial;
+    position:absolute;
+    top: 450px;
+    left: 300px;
+    font-size: xxx-large;
+}
+
+/*Purple text effect*/
+span {
+    color: thistle;
+}
+
+/*Navagation*/
+nav {
+    border: 1px solid black;
+    background-color: white;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 70px;
+    box-shadow: 3px 1px lightgrey;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+    text-decoration-color: white;
+    margin: 10px
+}
+
+a {
+    text-decoration: none;
+    color: #6d686b;
+    font-family:sans-serif, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+#about{
+    position: absolute; 
+    right: 160px;
+}
+
+#more{
+    position: absolute; 
+    right: 290px;
+}
+
+#home{
+    position: absolute; 
+    right: 410px;
+}
+
+#site{
+    position: absolute; 
+    left: 30px;
+    color: black;
+}
+
+a:hover {
+color: #ed306d;
+text-decoration: underline;
+}
+
