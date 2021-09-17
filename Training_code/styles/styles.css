@@ -99,3 +99,139 @@ color: #ed306d;
 text-decoration: underline;
 }
 
+/*CARDS*/
+p#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+  
+  .cardbox {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  
+  .cardbox1 {
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 18px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px darkgrey;
+  }
+  
+  .cardbox2 {
+    display: inline-block;
+    margin: 15px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 18px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px darkgrey;
+  }
+  
+  .cardbox3 {
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 18px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px darkgrey;
+  }
+  
+  .cardbox4 {
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid blue;
+    border-radius: 18px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px darkgrey;
+  }
+  
+  .boxtext1 {
+    font-size: 45px;
+  }
+  
+  .boxtext2 {
+    font-size: 45px;
+  }
+  
+  .boxtext3 {
+    font-size: 45px;
+    background-color: thistle;
+    box-shadow: silver 50cm;
+  }
+  
+  .boxtext4 {
+    font-size: 45px;
+    color: red;
+  }
+  
+  p {
+    font-size: 30px;
+    margin: 20px;
+    letter-spacing: 2px;
+    padding-top: 40px;
+  }
+  
+  /*CARDS 2*/
+  p#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+  
+  .cardboxx {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  
+  .cardboxx1 {
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 18px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px darkgrey;
+  }
+  
+  .cardboxx3 {
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid blue;
+    border-radius: 18px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px darkgrey;
+  }
+  
+  .boxtextt1 {
+    font-size: 45px;
+  }
+  
+  .boxtextt2 {
+    font-size: 45px;
+  }
+  
+  .boxtextt3 {
+    font-size: 45px;
+  
+    box-shadow: silver 50cm;
+  }
+  
+  .boxtextt4 {
+    font-size: 45px;
+    color: red;
+  }
+  
+  p {
+    font-size: 30px;
+    margin: 20px;
+    letter-spacing: 2px;
+    padding-top: 40px;
+  }
+  
