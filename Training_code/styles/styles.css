@@ -32,7 +32,7 @@ div {
 }
 
 /*Text on left*/
-p {
+#web {
     font-family: Arial;
     position:absolute;
     top: 450px;
@@ -55,7 +55,7 @@ nav {
     left: 0px;
     width:100%;
     height: 70px;
-    box-shadow: 3px 1px lightgrey;
+    box-shadow: 3px 1px 4px lightgrey;
 }
 
 li {
@@ -98,7 +98,6 @@ a:hover {
 color: #ed306d;
 text-decoration: underline;
 }
-
 /*CARDS*/
 p#title {
     font-family: Arial, Helvetica, sans-serif;
@@ -179,7 +178,7 @@ p#title {
   }
   
   /*CARDS 2*/
-  p#title {
+  #title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
   }
@@ -219,7 +218,6 @@ p#title {
   
   .boxtextt3 {
     font-size: 45px;
-  
     box-shadow: silver 50cm;
   }
   
@@ -228,10 +226,9 @@ p#title {
     color: red;
   }
   
-  p {
+  #title {
     font-size: 30px;
     margin: 20px;
     letter-spacing: 2px;
     padding-top: 40px;
   }
-  
