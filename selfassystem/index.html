@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self as System</title>
+</head>
+<body>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+
+    </style>
+
+    <script src="three.js"></script>
+    <script type="module" src="GLTFLoader.js"></script>
+    <script type="module">
+        import {GLTFLoader} from "./GLFTLoader.js";
+
+        var scene = new Three.scene();
+        var camera = new Three.PerspectiveCamera(
+            75,
+            window.innerWidth/window.innerHeight,
+            0.01,
+            1000
+        )
+        var render = new THREE.webGLRender();
+        render.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(render.domElement);
+
+        var obj = gltf.scene;
+        var loader = new GLTFLoader();
+        loader.load("systems.gltf",function(gltf){
+            scene.add(gltf.scene);
+        });
+        scene.background = new THREE.Color(0xffffff)
+        var light = new THREE.HemisphireLight(0xffffff, 0x000000, 2)
+        scene.add(light);
+        camera.position.set(0, 0, 10);
+        function animate(){
+            requestAnimationFrame(animate);
+            render.render(scene,camera);
+        }
+
+        animate();
+    </script>
+
+
+</body>
+</html>
